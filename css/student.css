@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;  
+
+}
+.container {
+    margin: 5% 10%;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.main{
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 25%;
+}
+
+.button{
+    text-align: center;
+}
+
+.main p{
+    text-align: center;
+}
+.main p:nth-child(1) {
+    font-weight: bold;
+}
+
+.result p{
+    font-size: 20px;
+}
+
+.error {
+    color: red;
+    margin: 30px 0 0 30vh;
+}
+.sub_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.marks_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+}
+.container .st_details{
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-align: center !important;
+    line-height: 50px !important;
+    padding-bottom: 50px;
+}
+
+/* hide buttom */
+@media print {
+    .button {
+        display: none;
+    }
+}
